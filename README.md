@@ -5,3 +5,5 @@
 4-q promise library
 
 npm install
+
+sudo npm install -g nodemon

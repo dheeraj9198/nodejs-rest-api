@@ -15,6 +15,14 @@ app.use(bodyParser.json());
 app.use('/', router);
 app.listen(port);
 
+router.use(function(req, res, next) {
+    // do logging
+    console.log('got request '+JSON.stringify(req.headers));
+    // check authentication etc
+    next(); // make sure we go to the next routes and don't stop here
+});
+
+
 //GET http://localhost:9000/api)
 router.get('/api', function(req, res) {
     res.json({ message: 'hooray! welcome to our api!' });
