@@ -11,6 +11,7 @@ var app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+//set router for app
 app.use('/', router);
 app.listen(port);
 
