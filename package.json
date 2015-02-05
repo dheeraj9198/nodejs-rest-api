@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-rest-api",
+  "version": "0.0.0",
+  "description": "node-js-express-mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodejs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dheeraj9198/nodejs-rest-api.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "express",
+    "mongo",
+    "dheeraj"
+  ],
+  "author": "dhirajsiitk9@gmail.com",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/dheeraj9198/nodejs-rest-api/issues"
+  },
+  "dependencies": {
+    "q": "~1.1.2",
+    "express": "~4.11.2",
+    "mongoose": "~3.8.22",
+    "body-parser": "~1.11.0"
+  }
+}
